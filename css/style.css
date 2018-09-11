@@ -30,7 +30,7 @@ ul {
 
 .wrap {
     width: 100%;
-    background: #c3c3;
+    background: #f4f4f4;
     height: 100%;
 }
 
@@ -49,9 +49,19 @@ li:hover {
     text-decoration: underline;
     cursor: pointer;
 }
+#content-wrap {
+    max-width: 1400px;
+    border: 1px solid;
+    margin: 0 auto;
+}
 
-
-
+.box {
+    border: 1px solid;
+    background: red;
+}
+.box p {
+    border: 1px solid;
+}
 
 
 /* Change the link color to #111 (black) on hover */
@@ -65,11 +75,16 @@ li a:hover {
     background: #ccc;
     color: #fff;
     padding-bottom: 30px;
-    width: 800px;
-    height: 400px;
+    padding: 55px;
     margin: 0 auto;
+    
 }
 
 #header img {
     width: 600px;
+}
+
+@media only screen and (max-width: 668px) {
+    #content-wrap 
+    { width: 400px }
 }
